@@ -8,6 +8,7 @@ function inventario(){
    ventas=prompt("Cantidad de Kg de pollo vendidos");
 
    existencia=pollo+Number(compras)-ventas;
+   
    document.getElementById("demo").innerHTML=compras;
    document.getElementById("demo2").innerHTML=ventas;
    document.getElementById("demo3").innerHTML=existencia;
